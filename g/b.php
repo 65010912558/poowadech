@@ -43,7 +43,7 @@ while ($data = mysqli_fetch_array($rs)){
     <td><?php echo $data ['p_country'];?></td>
     <td alight = "right">
 	<?php echo number_format($data ['p_amount'],0);?></td>
-    <td><img src = "images/<?php echo $data ['p_product_name'];?>.jfif"
+    <td><img src = "img/<?php echo $data ['p_product_name'];?>.jfif"
     width ="55" ></td>
 </tr>    	
 <?php 

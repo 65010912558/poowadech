@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 // ================== ตั้งค่า DB ==================
 $host = "localhost";
 $user = "root";
-$pass = "";
+$pass = "1234";
 $db   = "2558db"; 
 
 $conn = mysqli_connect($host, $user, $pass, $db);
